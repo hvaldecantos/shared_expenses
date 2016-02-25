@@ -1,0 +1,15 @@
+System Requirements
+-------------------------------------------------------------------------------
+
+In the next bullet list we show the informal requirements for this example. The
+system shall:
+
+* allow a user to register a shared expense.
+* allow a user to register a payment.
+* compute the debts and credits generated on users based on how the shared 
+  expense was split.
+* allow a user to register payments to set his/her debts on other user.
+* allow a user to generate a chronological report to see all his/her related 
+  payment activities.
+* allow a user to see his/her balance statement at any time.
+* allow a user to see what expenses remain to be paid.
