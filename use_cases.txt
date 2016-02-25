@@ -1,0 +1,33 @@
+Shared Expenses Tracking System
+-------------------------------------------------------------------------------
+
+Use case      : Register a shared expense 
+User intent   : A user wants to register a shared expense in order to track how
+                money is shared between people.
+Preconditions : There's more than one user registered in the system.
+
+1. A user (registrar, clerk, recorder) wants to register a shared expense.
+   -   The system provides a list of users to include in the sharing.
+2. A user (registrar, clerk, recorder) selects participants, enters the 
+   description, the due date, and the total amount of the shared expense.
+   -   The system provides a summary of shared expense to keep track.
+3. The user (registrar, clerk, recorder) accept registering the shared expense.
+   -   The system creates the expense with its description, total amount and 
+       due date; and it creates each user's share of the shared expense.
+
+Postconditions: 
+
+Variations    :
+2a. The registrar doesn't enter the total amount.
+    -  The system creates the expense with its description and total amount;
+       and it creates each user's share of the shared expense.
+2b. The registrar doesn't enter the due date.
+    -  The system creates the expense with its description, and total amount;
+       and it creates each user's share of the shared expense.
+2c. The registrar doesn't enter the total amount neither the due date.
+    -  The system creates the expense with its description only and it creates
+       each user's share of the shared expense.
+3a. The registrar doesn't accept registering the shared expense.
+    -  the use case ends
+
+
