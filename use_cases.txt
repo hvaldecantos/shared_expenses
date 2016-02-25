@@ -30,4 +30,40 @@ Variations    :
 3a. The registrar doesn't accept registering the shared expense.
     -  the use case ends
 
+-------------------------------------------------------------------------------
+
+Use case      : Register shared expense payment
+User intent   : A user want to register a shared expense payment to be able to
+                track debts and credits between participants.
+Preconditions : There's more than one user registered in the system.
+
+1. A user (payer) wants to register a payment.
+   -   The system provides an option to create a new expense to be paid
+       inmidiately.
+   -   The system provides a list of unpaid expenses to pay.
+2. The user (payer) selects to pay an existant full unpaid expense.
+   2.1 The system provides a summary of the payment: payer, payee(s), expense
+       description, total amount of the expense.
+   2.2 The system asks the payer if it is a full or partial payment.
+3. The payer answers: full payment
+   -   The system asks the payer how to split the expense among payees: equally
+       or customized.
+4. The user (payer) accept registering the payment dividing equally the shared
+   expense among participants.
+   -   The system registers the payment for the expense with date and time and
+       the amount.
+   -.1 The system splits equally the amount of the expense among payees
+   -.2 The system registers the share of each payee in the sharing, and
+       registers the payment with current date and time.
+
+Postconditions:
+
+Variations    :
+3a. The total amount is not equally divisible between participants.
+    -
+3b. The payer makes a partial paymnt.
+    -
+3c. The expense is custom divided among payees.
+    -
+
 
