@@ -1,3 +1,22 @@
+User narrative
+-------------------------------------------------------------------------------
+
+Alan lives in USA and he is finishing his master degree. He lives with other 
+two students at a rented house near the University. They usually share some
+expenses because it is convenient from them, they don't have to collect the
+money from each one every time they have to pay. One time Alan pays, next time
+Adele or Dan will pay back Alan paying another expense. They share not only
+expenses related to their house, as the rent, gas and electric, but they also
+share some expenses when going out to get some fun, like eating a pizza or
+drinking a beer. As some expenses, like paying the rent to the landlord have
+due date and cannot be auto paid using credit card, they have to be aware of
+paying on time to fulfill their responsibilities and to avoid extra charges. As
+they are little short of money and want to be fair with the amount of money
+each one pays, they want to track the shared expenses and payments among them
+in order to know what each one owes each other and what expenses remain to be
+paid.
+
+
 System Requirements
 -------------------------------------------------------------------------------
 
